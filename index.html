@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axios- Personal Portfolio</title>
+
+    <!--- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./src/assets/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--- custom css link -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <!--- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--- #MAIN -->
+
+    <main>
+      <!--- #SIDEBAR -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./src/assets/images/avatar-male-1.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Axios</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:technicalclub@iiitl.ac.in" class="contact-link"
+                  >technicalclub@iiitl.ac.in</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:1234567890" class="contact-link"
+                  >(+91) 1234567890
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2016-03-01">March 01, 2016</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Lucknow, UP</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/_axiosiiitl_/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/axios.iiitl/"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://twitter.com/axios_iiitl?lang=en"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--- main-content -->
+
+      <div class="main-content">
+        <!--- #ABOUT -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              exercitationem nulla culpa dolor, quaerat officia voluptatibus
+              corrupti deleniti beatae deserunt.
+            </p>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              adipisci. Perferendis facilis perspiciatis, hic quis illum
+              delectus velit, minima nemo veritatis accusamus voluptatem
+              molestias, vitae dignissimos. Magni maiores alias doloribus
+              veritatis eius eum necessitatibus ipsam ea consectetur dicta
+              laborum harum placeat vel, praesentium obcaecati nesciunt sequi et
+              ullam excepturi voluptates?
+            </p>
+          </section>
+
+          <!--- service -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./src/assets/svg/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Minus, architecto sequi atque perspiciatis dolorum
+                    exercitationem unde porro ipsa assumenda voluptatibus!
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./src/assets/svg/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Nam ipsum iste explicabo ducimus dolores at.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./src/assets/svg/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">apps</h4>
+
+                  <p class="service-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Esse provident molestias molestiae quia cupiditate ullam eos
+                    eius recusandae ipsa ab.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./src/assets/svg/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                    laborum.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--- awards -->
+
+          <section class="awards">
+            <h3 class="h3 awards-title">Awards</h3>
+
+            <ul class="awards-list has-scrollbar">
+              <li class="awards-item">
+                <div class="content-card" data-awards-item>
+                  <figure class="awards-avatar-box">
+                    <img
+                      src="./src/assets/svg/award.svg"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-awards-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 awards-item-title"
+                    data-awards-title
+                  >
+                    Award 1
+                  </h4>
+
+                  <div class="awards-text" data-awards-text>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Sequi nisi ipsam ipsa illum aliquid unde dicta at fuga
+                      odit molestias!
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="awards-item">
+                <div class="content-card" data-awards-item>
+                  <figure class="awards-avatar-box">
+                    <img
+                      src="./src/assets/svg/award.svg"
+                      alt="Jessica miller"
+                      width="60"
+                      data-awards-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 awards-item-title"
+                    data-awards-title
+                  >
+                    Award 2
+                  </h4>
+
+                  <div class="awards-text" data-awards-text>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Hic quae enim ad consequuntur alias veniam sequi nulla
+                      porro aut est.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--- awards modal -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="awards-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./src/assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./src/assets/svg/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Sint iusto voluptates laudantium, voluptatibus magnam
+                    voluptatum quidem facilis asperiores dolor quos sequi
+                    quisquam a eveniet? Magni minima tempora magnam, corrupti a
+                    est cupiditate odit rem consequuntur eum omnis nostrum
+                    temporibus quaerat optio quo? Laborum fugiat cum temporibus
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--- project-actives -->
+
+          <section class="project-actives">
+            <h3 class="h3 project-actives-title">Projects</h3>
+
+            <ul class="project-actives-list has-scrollbar">
+              <li class="project-actives-item">
+                <a href="#">
+                  <img
+                    src="./src/assets/images/axios.png"
+                    alt="project-active logo"
+                  />
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, deleniti.
+                </p>
+              </li>
+
+              <li class="project-actives-item">
+                <a href="#">
+                  <img
+                    src="./src/assets/images/axios.png"
+                    alt="project-active logo"
+                  />
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, deleniti.
+                </p>
+              </li>
+
+              <li class="project-actives-item">
+                <a href="#">
+                  <img
+                    src="./src/assets/images/axios.png"
+                    alt="project-active logo"
+                  />
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, deleniti.
+                </p>
+              </li>
+
+              <li class="project-actives-item">
+                <a href="#">
+                  <img
+                    src="./src/assets/images/axios.png"
+                    alt="project-active logo"
+                  />
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, deleniti.
+                </p>
+              </li>
+
+              <li class="project-actives-item">
+                <a href="#">
+                  <img
+                    src="./src/assets/images/axios.png"
+                    alt="project-active logo"
+                  />
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, deleniti.
+                </p>
+              </li>
+
+              <li class="project-actives-item">
+                <a href="#">
+                  <img
+                    src="./src/assets/images/axios.png"
+                    alt="project-active logo"
+                  />
+                </a>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus, deleniti.
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Indian Institute of Information technology, Lucknow
+                </h4>
+
+                <span>2021 — present</span>
+
+                <p class="timeline-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate maxime iure incidunt ratione eaque perspiciatis.
+                  Aspernatur quidem in possimus. Esse.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Some School XYZ</h4>
+
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  quasi accusantium dolores impedit. Rem, officia quae corporis
+                  magni laboriosam omnis.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Some School ABC</h4>
+
+                <span>2017 — 2019</span>
+
+                <p class="timeline-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt quos voluptate sunt unde porro, cumque totam quis nam
+                  ex vero?
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web development</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Competitive programming</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">App development</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Free and Open Source</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine Learning</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UI / UX</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Infosec</h5>
+                  <data value="30">30%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 30%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@technicalclubaxios"
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./src/assets/images/blogs.png"
+                      alt="Blog"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Topic</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Date</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Blog 1</h3>
+
+                    <p class="blog-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Odit autem, quisquam necessitatibus et, minima eligendi
+                      omnis nisi eveniet quos commodi perspiciatis provident
+                      illum?
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@technicalclubaxios"
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./src/assets/images/blogs.png"
+                      alt="Blog"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Topic</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Date</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Blog 2</h3>
+
+                    <p class="blog-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Odit autem, quisquam necessitatibus et, minima eligendi
+                      omnis nisi eveniet quos commodi perspiciatis provident
+                      illum?
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Note"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Note </span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
